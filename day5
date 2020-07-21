@@ -1,0 +1,78 @@
+1)
+    <script>
+      for(let i=0;i<=100;i++){
+          if(i%3==0){
+              console.log("index= "+i+" fizz");
+
+          }
+          else if(i%5==0){
+              console.log("index= "+i+" buzz");
+          }
+          else if(i%5==0 && i%3==0){
+              console.log("index = "+i+" fizzbuzz")
+          }
+          
+      }
+
+  </script> 
+  
+  2)
+     const student={
+          name:"Helsinki",
+          age:24,
+          projects:{dicegame:"Two Player Dice game using Javascript"}
+
+      }
+
+3)
+    shoppingList=["Rice","Sugar","wheat"];
+      shoppingBusket=['maggi'];
+      shoppingList.concat(shoppingBusket);
+      shoppingList.push("dal");
+      
+4)
+let n1=number(prompt("enter number 1"));
+      let n2=number(prompt("enter number 2"));
+      let ch=prompt("enter + - / *");
+      switch(ch){
+          case'+':console.log(n1+n2);
+                      break;
+          case '-':console.log(n1-n2);
+                      break;
+          case '*':console.log(n1*n2);
+                      break;
+          case '/':console.log(n1/n2);
+                        break;                                    
+      }
+
+5) sales=7245;
+      if(sales<5000){
+          sales=sales+sales*0.02;
+      }
+      else if(sales>5000 && sales<10000){
+          sales=sales+sales*0.05;
+      }
+      else if(sales>10000 && sales<20000){
+          sales=sales+sales*0.07;
+      }
+      else{
+          sales=sales+sales*0.1;
+      }
+      console.log(sales);
+      
+      
+ 7)
+ console.log("prime numbers---");
+      let n=prompt("enter range:");
+      function prime(x){
+          for(let i=2;i<x;i++){
+              if(x%i==0){
+                  return false
+              }
+            
+          }
+          console.log(x);
+      }
+      for(let i=2;i<=n;i++){
+          prime(i)
+      }

@@ -1,0 +1,25 @@
+1)
+    <script>
+      for(let i=0;i<=100;i++){
+          if(i%3==0){
+              console.log("index= "+i+" fizz");
+
+          }
+          else if(i%5==0){
+              console.log("index= "+i+" buzz");
+          }
+          else if(i%5==0 && i%3==0){
+              console.log("index = "+i+" fizzbuzz")
+          }
+          
+      }
+
+  </script> 
+  
+  2)
+     const student={
+          name:"Helsinki",
+          age:24,
+          projects:{dicegame:"Two Player Dice game using Javascript"}
+
+      }
